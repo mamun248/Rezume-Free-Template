@@ -1,0 +1,137 @@
+@media only screen and (max-width:1280px){
+    .testimonial-section .client-photo {
+        float: none;
+        width: 90px;
+        padding-bottom: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+    .testimonial-section .client-review {
+        width: 415px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1rem;
+    }
+    }
+@media only screen and (max-width:1024px) {
+    .header-section h1 {
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .testimonial-section .span_1_of_2 {
+        width: 100%;
+        
+    }
+    .testimonial-section .client-review{
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+    .resume-section .span_1_of_2 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .resume-section #experience{
+        display: none;
+    }    
+    @media only screen and (max-width:924px) {
+        .portfolio-section h3{
+            font-size: 1.4rem;
+        }
+        .portfolio-section .span_1_of_3{
+            width: 49.2%;
+        }
+        .portfolio-section .col:nth-child(5) {
+            margin-left: 0;
+        }
+    }
+    @media only screen and (max-width:790px) {
+        .resume-section h3 {
+            font-size: 1.8rem;
+        }
+        .services-section .span_1_of_3{
+            width: 100%;
+        }
+        .blog-section .span_1_of_3{
+            width: 100%;
+        }       
+    }   
+    @media only screen and (max-width:768px) {
+        .resume-section h3 {
+            font-size: 1.8rem;
+        }
+        .header-section h1{
+            margin-top: 8rem;
+        }
+        .main-nav{
+            display: none;
+        }
+        .mobile-menu span{
+            display: block;
+        }
+        .sticky-nav .main-nav{
+            display: none;
+        }
+        .sticky-nav .mobile-menu span{
+            display: block;
+        }
+       
+    }
+    @media only screen and (max-width:650px){
+        .footer-section ul li{
+            font-size: 1rem;
+            margin-left: 1.3rem;
+            padding: 1rem;
+            height: 3rem;
+            width: 3rem;
+        }
+        .contact-section .span_1_of_2{
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:480px) {
+        .header-section ul li {
+            display: inline-block;
+            font-size: 1rem;
+            margin-left: 4rem;
+            letter-spacing: 0.3rem;
+        }
+        .header-section h1 {
+            font-size: 4rem;
+            margin-top: 12rem;
+        }
+        .portfolio-section .span_1_of_3{
+            width: 100%;
+        }
+        .testimonial-section .client-review p{
+            line-height: 1.8rem;
+        }
+        .resume-section .col .cv a {
+            display: block;
+            margin: 1rem;
+            margin-left: 0;
+            text-align: center;
+            
+            
+        }
+        .resume-section .col .cv a:nth-child(1){
+            margin-left: 0;
+        }
+        .contact-section a{
+            font-size: 1.3rem;
+            margin-left: 0;
+        }
+        .contact-section .full-box h2{
+            padding: 0;
+        }
+        cite{
+            font-size: 1rem;
+        }
+        
+        
+    }
+}
